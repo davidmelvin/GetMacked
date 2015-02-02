@@ -1,12 +1,12 @@
 {
   "name": "Get Macked!",
-  "description": "We're here to help you get #Macked.",
-  "version": "1.0",
+  "description": "Check your answer to physics questions!.",
+  "version": "0.1",
   "permissions": [
     "tabs", "http://*/*", "https://*/*", "file:///"
   ],
   "browser_action": {
-      "default_title": "Get Macked Now!",
+      "default_title": "Check your answers!",
       "default_icon": "icon.png",
       "default_popup": "popup.html"
   },

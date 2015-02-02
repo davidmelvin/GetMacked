@@ -12,9 +12,7 @@ function findRow(){
 
 function findAnswer(filename){
   var answerDiv = document.querySelector('#answer');
-  message.innerText = "File Name: " + filename;
-
-  Papa.parse("http://davidmelvinjr.com/answers.csv", {
+    Papa.parse("http://davidmelvinjr.com/answers.csv", {
     download: true,
     complete: function(results) {
        
@@ -27,13 +25,11 @@ function findAnswer(filename){
        }
       }
     })
-  
-  
-  //answerDiv.innerText = "testing answer";
+
 }
 
 function onWindowLoad() {
-  var message = document.querySelector('#message');
+  var answerDiv = document.querySelector('#answer');
   
   
  
@@ -42,7 +38,7 @@ function onWindowLoad() {
   }, function() {
     // If you try and inject into an extensions page or the webstore/NTP you'll get an error
     if (chrome.extension.lastError) {
-      message.innerText = 'There was an error injecting script : \n' + chrome.extension.lastError.message;
+      answerDiv.innerText = 'There was an error injecting script : \n' + chrome.extension.lastError.message;
     }
   });
 
