@@ -1,9 +1,7 @@
 console.log("test1");
 chrome.extension.onMessage.addListener(function(request, sender) {
   if (request.action == "getSource") {
-
     findAnswer(request.source);
-    
   }
 });
 function findRow(){
@@ -16,8 +14,6 @@ function findAnswer(filename){
     download: true,
     complete: function(results) {
        
-       
-
        for (var i = 0; i < results.data.length; i++){
           if (results.data[i][0] == filename){
             answerDiv.innerText = "Answer: " + results.data[i][1];
@@ -31,8 +27,6 @@ function findAnswer(filename){
 function onWindowLoad() {
   var answerDiv = document.querySelector('#answer');
   
-  
- 
   chrome.tabs.executeScript(null, {
     file: "getPagesSource.js"
   }, function() {

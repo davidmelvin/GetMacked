@@ -1,7 +1,7 @@
 {
   "name": "Get Macked!",
   "description": "Check your answer to physics questions!.",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
     "tabs", "http://*/*", "https://*/*", "file:///"
   ],

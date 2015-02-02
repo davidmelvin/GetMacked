@@ -11,6 +11,7 @@ Get Macked isn't on the Chrome Web Store so you have to install it manually.
 
 ##Usage
 This extension currently only works on mackchemistry.net online physics quizzes.
+
 1. Start a quiz.
 2. Copy the url that opens in a new window and paste it into a new tab in your main chrome window.
 3. Choose the best answer to the question.
@@ -19,3 +20,9 @@ This extension currently only works on mackchemistry.net online physics quizzes.
 ##Changelog
 - Version 0.1 - Inititial, basic functionality
 - Version 0.2 - Cleaned up, removed some unnecessary stuff
+
+##To-do
+- Clean up code
+- Load answers.csv locally, not download
+- Speed up popup
+- Create custom icon
