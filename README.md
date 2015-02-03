@@ -28,5 +28,4 @@ Icon Created by Alex Auda Samora from the Noun Project
 - Clean up code
 - Load answers.csv locally, not download
 - Speed up popup
-- Create custom icon
-
+- Comment code

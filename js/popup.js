@@ -28,7 +28,7 @@ function onWindowLoad() {
   var answerDiv = document.querySelector('#answer');
   
   chrome.tabs.executeScript(null, {
-    file: "getPagesSource.js"
+    file: "js/getPagesSource.js"
   }, function() {
     // If you try and inject into an extensions page or the webstore/NTP you'll get an error
     if (chrome.extension.lastError) {
