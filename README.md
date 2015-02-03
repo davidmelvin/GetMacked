@@ -17,6 +17,9 @@ This extension currently only works on mackchemistry.net online physics quizzes.
 3. Choose the best answer to the question.
 4. Click the GetMacked icon in the top right to check your answer.
 
+##Credits
+Icon Created by Alex Auda Samora from the Noun Project
+
 ##Changelog
 - Version 0.1 - Inititial, basic functionality
 - Version 0.2 - Cleaned up, removed some unnecessary stuff
@@ -26,3 +29,4 @@ This extension currently only works on mackchemistry.net online physics quizzes.
 - Load answers.csv locally, not download
 - Speed up popup
 - Create custom icon
+
